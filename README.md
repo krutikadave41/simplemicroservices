@@ -8,7 +8,8 @@ URL: http://localhost:8761/
 2) CatalogService that returns list of items
 URL: http://localhost:8088/api/items
 
-3) BrandService that returns list of top brands by calling the CatalogService and checking which brands have ratings greater than 3
+3) BrandService that returns list of top brands by calling the CatalogService and checking which brands have ratings greater than 3.
+URL: http://localhost:8089/api/topbrands
 This service uses FeignClient to call CatalogService by defining a CatalogServiceProxy interface & defining the @RequestMapping wih method type and url.
 
 
